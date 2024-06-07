@@ -72,7 +72,7 @@ You can add and change training data, as well as retrain the model
 
 ### 1. Learning data collection
 Press "k" to enter the mode to save key points (displayed as [MODE:Logging Key Point]) <br>
-<img src="https://user-images.githubusercontent.com/37477845/102235423-aa6cb680-3f35-11eb-8ebd-5d823e211447.jpg" width="60%"><br><br>
+<img src="https://github.com/congduytran12/Hand-Gesture-Recognition-Mediapipe/blob/main/logging_key_point.png" width="60%"><br><br>
 If you press "0" to "9", the key points will be added to "data/keypoint.csv" as shown below.<br>
 First column: Pressed number (used as class ID), second and subsequent columns: Key point coordinates<br>
 <img src="https://user-images.githubusercontent.com/37477845/102345725-28d26280-3fe1-11eb-9eeb-8c938e3f625b.png" width="80%"><br><br>
