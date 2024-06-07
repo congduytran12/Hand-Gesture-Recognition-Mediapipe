@@ -75,7 +75,7 @@ Press "k" to enter the mode to save key points (displayed as [MODE:Logging Key P
 <img src="https://github.com/congduytran12/Hand-Gesture-Recognition-Mediapipe/blob/main/logging_key_point.png" width="60%"><br><br>
 If you press "0" to "9", the key points will be added to "data/keypoint.csv" as shown below.<br>
 First column: Pressed number (used as class ID), second and subsequent columns: Key point coordinates<br>
-<img src="https://user-images.githubusercontent.com/37477845/102345725-28d26280-3fe1-11eb-9eeb-8c938e3f625b.png" width="80%"><br><br>
+<img src="https://github.com/congduytran12/Hand-Gesture-Recognition-Mediapipe/blob/main/keypoint.png" width="80%"><br><br>
 The key point coordinates are the ones that have undergone the following preprocessing.<br>
 <img src="https://user-images.githubusercontent.com/37477845/102242918-ed328c80-3f3d-11eb-907c-61ba05678d54.png" width="80%">
 <img src="https://user-images.githubusercontent.com/37477845/102244114-418a3c00-3f3f-11eb-8eef-f658e5aa2d0d.png" width="80%"><br><br>
