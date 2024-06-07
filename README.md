@@ -77,7 +77,7 @@ If you press "0" to "9", the key points will be added to "data/keypoint.csv" as 
 First column: Pressed number (used as class ID), second and subsequent columns: Key point coordinates<br>
 <img src="https://github.com/congduytran12/Hand-Gesture-Recognition-Mediapipe/blob/main/keypoint.png" width="80%"><br><br>
 The key point coordinates are the ones that have undergone the following preprocessing.<br>
-<img src="https://user-images.githubusercontent.com/37477845/102242918-ed328c80-3f3d-11eb-907c-61ba05678d54.png" width="80%">
+<img src="https://github.com/congduytran12/Hand-Gesture-Recognition-Mediapipe/blob/main/hand-landmarks.png" width="80%">
 <img src="https://user-images.githubusercontent.com/37477845/102244114-418a3c00-3f3f-11eb-8eef-f658e5aa2d0d.png" width="80%"><br><br>
 In the initial state, 8 types of learning data are included: open sign (class ID: 0), close sign (class ID: 1), thumbs up sign (class ID: 2), thumbs down sign (class ID: 3), peace sign (class ID: 4), okay sign (class ID: 5), pointer sign (class ID: 6), rock n roll sign (class ID: 7).<br>
 If necessary, delete the existing data of csv to prepare the training data.<br>
