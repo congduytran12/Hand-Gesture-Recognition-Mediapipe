@@ -84,3 +84,4 @@ If necessary, delete the existing data of csv to prepare the training data.<br>
 ### 2. Model training
 Open "[keypoint_classification.ipynb](keypoint_classification.ipynb)" in Jupyter Notebook and execute from top to bottom.<br>
 To change the number of training data classes, change the value of "NUM_CLASSES = 8" <br>and modify the label of "data/keypoint_classifier_label.csv" as appropriate.<br><br>
+
