@@ -367,9 +367,9 @@ def draw_info(image, fps, mode, number):
     cv2.putText(image, "FPS:" + str(fps), (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (0, 0, 0), 4, cv2.LINE_AA)
     cv2.putText(image, "FPS:" + str(fps), (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255, 255, 255), 2, cv2.LINE_AA)
 
-    mode_string = ['Logging Key Point']
+    mode_string = 'Logging Key Point'
     if mode == 1:
-        cv2.putText(image, "MODE:" + mode_string[mode - 1], (10, 90), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 1, cv2.LINE_AA)
+        cv2.putText(image, "MODE:" + mode_string, (10, 90), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 1, cv2.LINE_AA)
         if 0 <= number <= 9:
             cv2.putText(image, "NUM:" + str(number), (10, 110), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 1, cv2.LINE_AA)
     return image
