@@ -85,6 +85,4 @@ If necessary, delete the existing data of csv to prepare the training data.<br>
 Open "[keypoint_classification.ipynb](keypoint_classification.ipynb)" in Jupyter Notebook and execute from top to bottom.<br>
 To change the number of training data classes, change the value of "NUM_CLASSES = 8" <br>and modify the label of "data/keypoint_classifier_label.csv" as appropriate.<br><br>
 
-### 3. Model structure
-The image of the model prepared in "[keypoint_classification.ipynb](keypoint_classification.ipynb)" is as follows.
-<img src="https://user-images.githubusercontent.com/37477845/102246723-69c76a00-3f42-11eb-8a4b-7c6b032b7e71.png" width="50%"><br><br>
+
